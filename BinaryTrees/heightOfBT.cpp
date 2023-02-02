@@ -1,16 +1,15 @@
+#include "binaryTree.cpp"
 #include <bits/stdc++.h>
 using namespace std;
 
-int heightOfBT(node *root)
-{
-    if (node == NULL)
-    {
-        return 0;
-    }
+int heightOfBT(node *root) {
+  if (root == NULL) {
+    return 0;
+  }
 
-    int left = heightOfBT(node->left);
-    int right = heightOfBT(node->right);
+  int left = heightOfBT(root->left);
+  int right = heightOfBT(root->right);
 
-    int ans = max(left, right) + 1;
-    return ans;
+  int ans = max(left, right) + 1;
+  return ans;
 }
