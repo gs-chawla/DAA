@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include "binaryTree.cpp"
 using namespace std;
 
 int heightOfBT(node *root)
