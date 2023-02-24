@@ -26,7 +26,7 @@ public:
         int vis[V] = {0};
         int start = 0;
         vector<int> ls;
-        dfs(start,adj,vis , ls);
+        dfs(start, adj, vis, ls);
         return ls;
     }
 }

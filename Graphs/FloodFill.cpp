@@ -17,7 +17,7 @@ private:
             {
                 dfs(nrow, ncol, ans, image, newColor, delRow, delCol, iniColor);
             }
-        }
+        } 
     }
 
 public:

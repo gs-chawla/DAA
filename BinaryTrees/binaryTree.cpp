@@ -82,7 +82,7 @@ void inOrder(node *root) // LNR
     inOrder(root->right);
 }
 
-void preOrder(node *root)
+void preOrder(node *root) // DLR 
 {
     if (root == NULL)
     {
@@ -93,7 +93,7 @@ void preOrder(node *root)
     preOrder(root->right);
 }
 
-void postOrder(node *root)
+void postOrder(node *root)  // LRD
 {
     if (root == NULL)
     {
@@ -139,3 +139,4 @@ void *buildFromLevelOrder(node* &root)
         }
     }
 }
+
